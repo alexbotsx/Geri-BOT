@@ -9,21 +9,21 @@ const handler = async (m, {conn, usedPrefix}) => {
   const text = `${tradutor.texto1[0]}
 
 ${tradutor.texto1[1]}
-1.- https://chat.whatsapp.com/LbdiPrImAbI67gaA5Dyf3j
+1.- https://chat.whatsapp.com/FEm8BZAVsUY45OCdbxKN6I?mode=r_c
 
-2.- https://chat.whatsapp.com/LbdiPrImAbI67gaA5Dyf3j
+2.- https://chat.whatsapp.com/FEm8BZAVsUY45OCdbxKN6I?mode=r_c
 
-3.- https://chat.whatsapp.com/LbdiPrImAbI67gaA5Dyf3j
+3.- https://chat.whatsapp.com/FEm8BZAVsUY45OCdbxKN6I?mode=r_c
 
-4.- https://chat.whatsapp.com/LbdiPrImAbI67gaA5Dyf3j
+4.- https://chat.whatsapp.com/FEm8BZAVsUY45OCdbxKN6I?mode=r_c
 
 > Alexn Team  :
 
-1.- https://chat.whatsapp.com/LbdiPrImAbI67gaA5Dyf3j
+1.- https://chat.whatsapp.com/FEm8BZAVsUY45OCdbxKN6I?mode=r_c
 
-2.- https://chat.whatsapp.com/LbdiPrImAbI67gaA5Dyf3j`.trim();
+2.- https://chat.whatsapp.com/FEm8BZAVsUY45OCdbxKN6I?mode=r_c`.trim();
   const buttonMessage= {
-    'document': {url: `https://github.com/BrunoSobrino/𝐔𝐧𝐊𝐧 - 𝐁𝐎𝐓`},
+    'document': {url: `https://github.com/BrunoSobrino/GeriMiau`},
     'mimetype': `application/${document}`,
     'fileName': `${tradutor.texto2}`,
     'fileLength': 99999999999999,
@@ -32,7 +32,7 @@ ${tradutor.texto1[1]}
       'forwardingScore': 200,
       'isForwarded': true,
       'externalAdReply': {
-        'mediaUrl': 'https://github.com/BrunoSobrino/𝐔𝐧𝐊𝐧 - 𝐁𝐎𝐓',
+        'mediaUrl': 'https://github.com/BrunoSobrino/GeriMiau',
         'mediaType': 2,
         'previewType': 'pdf',
         'title': `${tradutor.texto3}`,

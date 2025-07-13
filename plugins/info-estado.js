@@ -28,11 +28,11 @@ const handler = async (m, { conn, usedPrefix }) => {
   const old = performance.now();
   const neww = performance.now();
   const rtime = (neww - old).toFixed(7);
-  const wm = '𝐔𝐧𝐊𝐧 - 𝐁𝐎𝐓 Bot';
+  const wm = 'GeriMiau Bot';
   const info = ` ${tradutor.texto1[0]}
 
   ${tradutor.texto1[1]} Alexn
-  ${tradutor.texto1[2]} +51938292539
+  ${tradutor.texto1[2]} +56941827124
   ${tradutor.texto1[3]} Alexn
 
   ${tradutor.texto1[4]} ${rtime}
@@ -63,7 +63,7 @@ const handler = async (m, { conn, usedPrefix }) => {
   ];
   const document = doc[Math.floor(Math.random() * doc.length)];
   const Message = {
-    document: { url: `https://github.com/BrunoSobrino/𝐔𝐧𝐊𝐧 - 𝐁𝐎𝐓` },
+    document: { url: `https://github.com/BrunoSobrino/GeriMiau` },
     mimetype: `application/${document}`,
     fileName: `Documento`,
     fileLength: 99999999999999,
@@ -72,13 +72,13 @@ const handler = async (m, { conn, usedPrefix }) => {
       forwardingScore: 200,
       isForwarded: true,
       externalAdReply: {
-        mediaUrl: "https://chat.whatsapp.com/LbdiPrImAbI67gaA5Dyf3j",
+        mediaUrl: "https://chat.whatsapp.com/FEm8BZAVsUY45OCdbxKN6I?mode=r_c",
         mediaType: 2,
         previewType: "pdf",
-        title: "𝐔𝐧𝐊𝐧 - 𝐁𝐎𝐓",
+        title: "GeriMiau",
         body: tradutor.texto2,
         thumbnail: imagen1,
-        sourceUrl: "https://chat.whatsapp.com/LbdiPrImAbI67gaA5Dyf3j",
+        sourceUrl: "https://chat.whatsapp.com/FEm8BZAVsUY45OCdbxKN6I?mode=r_c",
       },
     },
     caption: info,
